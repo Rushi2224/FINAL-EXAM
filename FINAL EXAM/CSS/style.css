@@ -1,0 +1,116 @@
+body{
+    font-family: "Roboto",sans-serif;
+}
+h1,h2,h3{
+    font-family: "Montserrat",sans-serif;
+}
+header{
+    background-color:  #125784;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo > img{
+    margin-left: 10px;
+    margin-right:10px;
+    height: 100px;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    font-size: 19px;
+    gap: 25px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+.navbar li{
+    position: relative;
+}
+.search-tab{
+    font-style: bold;
+}
+.subject-name{
+    background: url('../img/img1.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.subject-name div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+}
+.subject-name div h2{
+    font-size: 25px;
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom:180px ;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    background-color: #f57f17;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+.wordings{
+    flex:1;
+    text-align: left;
+    margin: 10px;
+
+}
+.img img{
+    height: 250px;
+    width:250px;
+}
+.img-holder{
+    display: flex;
+}
+.img-holder img{
+    height: 350px;
+    width: 480px;
+}
+form{
+    background-color: #5e35b1;
+    padding:10px;
+    text-align:center;
+    align-content: center;
+    height: 280px;
+}
+form label{
+    color:white;
+}
+form input {
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"],
+form textarea {
+    width: 450px; 
+    box-sizing: border-box; 
+    margin-bottom:10px;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+}
